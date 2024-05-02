@@ -24,9 +24,6 @@
       "default_popup": "dist/index.html"
     },
 
-    "background": {
-        "scripts": ["dist/scriptsmth.js"]
-    },
     "web_accessible_resources": [
       "beasts/*.jpg"
     ]
