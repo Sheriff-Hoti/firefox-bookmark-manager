@@ -1,28 +1,27 @@
-## Usage
+## Try it out
+
+Clone the repo
+
+```bash
+$ git clone <repo-url>
+```
+
+Install dependecies
 
 ```bash
 $ npm install # or pnpm install or yarn install
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+Build the project
 
-## Available Scripts
+```bash
+$ npm build # or pnpm build or yarn build
+```
 
-In the project directory, you can run:
+Go to 'about:debugging' on firefox browser
 
-### `npm run dev`
+Click 'Load Temporary Add-on'
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+Select manifest.json file
 
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+And that should be it
