@@ -1,0 +1,30 @@
+{
+  "name": "firefox-bookmark-manager",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@ark-ui/solid": "^4.2.1",
+    "@kobalte/core": "^0.13.7",
+    "solid-icons": "^1.1.0",
+    "solid-js": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.5",
+    "autoprefixer": "^10.4.20",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "postcss": "^8.4.47",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss": "^3.4.13",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.5.3",
+    "vite": "^5.4.8",
+    "vite-plugin-solid": "^2.10.2"
+  }
+}

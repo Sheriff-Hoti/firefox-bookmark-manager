@@ -1,0 +1,25 @@
+{
+  "description": "Bookmark manager extension",
+  "manifest_version": 3,
+  "name": "Bookmark Manager",
+  "version": "1.0",
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+  "permissions": [
+    "activeTab",
+    "bookmarks"
+  ],
+  "action": {
+    "default_icon": "icons/beasts-32.png",
+    "theme_icons": [
+      {
+        "light": "icons/beasts-32-light.png",
+        "dark": "icons/beasts-32.png",
+        "size": 32
+      }
+    ],
+    "default_title": "Bookmark Manager",
+    "default_popup": "dist/index.html"
+  }
+}
